@@ -5,6 +5,8 @@ import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/stan
 import {AlertController} from '@ionic/angular';
 import {AuthService} from '../auth.service';
 import {Router} from '@angular/router';
+import { Inject } from '@angular/core';
+import { Auth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-signup',
