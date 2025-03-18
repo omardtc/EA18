@@ -1,7 +1,0 @@
-{
-  "name": "EA18",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}
